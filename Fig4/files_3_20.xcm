@@ -1,0 +1,14 @@
+statistic chi
+data 1:1 spectra_10408-01-10-00.grp
+
+data 2:2 spectra_10408-01-38-00.grp
+
+data 3:3 spectra_20402-01-45-03.grp
+ignore 1:1-5,50-72 2:1-5,52-69 3:1-5,48-75
+
+method leven 10 0.01
+abund aneb
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
